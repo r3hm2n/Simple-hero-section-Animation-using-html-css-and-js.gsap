@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background: #2e293a;
+    color: white;
+    font-family: "Inria Serif", serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.navbar .links{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 650px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.navbar .links h4:hover{
+    color: grey;
+    transition: all 0.5s ease;
+}
+
+.navbar h4{
+    padding: 30px;
+}
